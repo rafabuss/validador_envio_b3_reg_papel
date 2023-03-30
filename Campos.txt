@@ -1,0 +1,93 @@
+01 Tipo IF                           X (  5) N 0       5    
+02 Tipo de Registro                  9 (  1) N 5       6    
+03 Acao                              X (  4) N 6       10   
+04 Codigo IF                         X1( 14) N 10      24   
+05 Quantidade de linhas adicionais   9 (  4) S 24      28   
+06 Conta do Registrador              9 (  8) N 28      36   
+07 Codigo ISIN                       X ( 12) N 36      48   
+08 Data de Emissao                   9 (  8) S 48      56   
+09 Data de Vencimento                9 (  8) N 56      64   
+10 Prazo de Emissao                  9 ( 10) N 64      74   
+11 Quantidade Emitida                9 ( 14) N 74      88   
+12 Valor Unitario de Emissao         9 ( 18) N 88      106  
+13 Valor Financeiro de Emissao       9 ( 18) N 106     124  
+14 Valor de unitario                 9 ( 18) N 124     142  
+15 Data Em                           9 (  8) N 142     150  
+16 Valor Financeiro de Resgate       9 ( 18) N 150     168  
+17 Cod Multiplas Curvas              X (  1) N 168     169  
+18 Escalonamento                     X (  1) N 169     170  
+19 Descricao Adicional               X (200) N 170     370  
+20 Condicao de Resgate Antecipado    X (  1) N 370     371  
+21 Forma de Pagamento                9 (  2) S 371     373  
+22 Rentabilidade Indexador Taxa      9 (  4) N 373     377  
+23 Periodicidade de Correcao         X (  1) N 377     378  
+24 Pro-rata de Correcao              X (  1) N 378     379  
+25 Tipo de correcao                  X (  1) N 379     380  
+26 Porcentagem da Taxa Flutuante     9 (  7) N 380     387  
+27 Taxa de Juros Spread              9 (  8) N 387     395  
+28 Criterio de calculo de juros      9 (  2) N 395     397  
+29 Qualificacao VCP                  9 (  5) N 397     402  
+30 Descricao VCP                     X (200) N 402     602  
+31 Incorpora Juros?                  X (  1) S 602     603  
+32 Data da Incorporacao dos Juros    9 (  8) N 603     611  
+33 Dia de Atualizacao                X (  2) N 611     613  
+34 Rentabilidade Indexador Taxa      9 (  4) N 613     617  
+35 Periodicidade de Correcao         X (  1) N 617     618  
+36 Pro-rata de Correcao              X (  1) N 618     619  
+37 Tipo de correcao                  X (  1) N 619     620  
+38 Porcentagem da Taxa Flutuante     9 (  7) N 620     627  
+39 Taxa de JurosSpread               9 (  8) N 627     635  
+40 Criterio de calculo de juros      9 (  2) N 635     637  
+41 Rentabilidade Indexador Taxa      9 (  4) N 637     641  
+42 Periodicidade de Correcao         X (  1) N 641     642  
+43 Pro-rata de Correcao              X (  1) N 642     643  
+44 Tipo de correcao                  X (  1) N 643     644  
+45 Porcentagem da Taxa Flutuante     9 (  7) N 644     651  
+46 Taxa de Juros/Spread              9 (  8) N 651     659  
+47 Criterio de calculo de juros      9 (  2) N 659     661  
+48 Rentabilidade Indexador Taxa      9 (  4) N 661     665  
+49 Periodicidade de Correcao         X (  1) N 665     666  
+50 Pro-rata de Correcao              X (  1) N 666     667  
+51 Tipo de correcao                  X (  1) N 667     668  
+52 Porcentagem da Taxa Flutuante     9 (  7) N 668     675  
+53 Taxa de Juros Spread              9 (  8) N 675     683  
+54 Criterio de calculo de juros      9 (  2) N 683     685  
+55 Periodicidade de Juros            X (  1) N 685     686  
+56 Juros a cada                      9 ( 10) N 686     696  
+57 Tipo Unidade de Tempo             X (  1) N 696     697  
+58 Tipo Prazo                        X (  1) N 697     698  
+59 Data Inicio dos Juros             9 (  8) N 698     706  
+60 Dia do Evento dos Juros           X (  2) N 706     708  
+61 Tipo de Amortizacao               X (  1) N 708     709  
+62 Amortizacao a cada                9 (  0) N 709     719  
+63 Tipo Unidade de Tempo             X (  1) N 719     720  
+64 Tipo Prazo                        X (  1) N 720     721  
+65 Data Inicio da Amortizacao        9 (  8) N 721     729  
+66 Dia do Evento da Amortizacao      X (  2) N 729     731  
+67 Conta do Favorecido               9 (  8) N 731     739  
+68 CPF/CNPJ Cliente                  X ( 18) N 739     757  
+69 Natureza Cliente                  X (  2) N 757     759  
+70 Meu Numero                        9 (  0) N 759     769  
+71 P.U.                              9 ( 18) N 769     787  
+72 Modalidade                        9 (  1) N 787     788  
+73 Banco Liquidante                  9 (  8) N 788     796  
+74 Valor apos Incorporacao           9 ( 18) N 796     814  
+75 Descricao Direitos Creditorios    X (200) N 814     1014 
+76 Distribuicao Publica              X (  1) N 1014    1015 
+77 Emitido com Garantia ao FGC       X (  1) N 1015    1016 
+78 Opcao de Recompra Resgate Emissor X (  1) N 1016    1017 
+79 Clausula de Conversao Extincao    X (  1) N 1017    1018 
+80 Limite Maximo de Conversibilidade 9 ( 16) N 1018    1034 
+81 Criterios para Conversao          X (500) N 1034    1534 
+82 Forma de Integralizacao           9 (  1) N 1534    1535 
+83 Tipo de Calculo                   X (  1) N 1535    1536 
+84 Tipo de Alteracao                 9 (  1) N 1536    1537 
+85 Valor de (Base de Calculo)        9 ( 18) N 1537    1555 
+86 Data Em (Base de Calculo)         9 (  8) N 1555    1563 
+87 Alterar Agenda de Eventos         X (  1) N 1563    1564 
+88 Recompra pelo emissor             X (  1) N 1564    1565 
+89 Obteve Autorizacao Banco Central  X (  1) N 1565    1566 
+90 Controle Interno                  X ( 10) N 1566    1576 
+91 Tipo de Regime                    9 (  1) N 1576    1577 
+92 Modelo de Distribuicao Publica    9 (  2) N 1577    1579 
+93 Delimitador                       X (  1) N 1579    1580 
