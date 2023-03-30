@@ -15,7 +15,7 @@ Python 3.11.0
 ```
 
 ## Configuração do "Validador":
-O projeto possui um arquivo que estipula os atributos e suas posições, com base no layout da fornecido pela p3. O arquivo "Campos.txt" lista a ordem dos atributos, sua descrição, o tipo de preenchimento, se é obrigatório ou não, a quantidade de caractere e a posição.
+O projeto possui um arquivo que estipula os atributos e suas posições, com base no layout da fornecido pela B3. O arquivo "Campos.txt" lista a ordem dos atributos, sua descrição, o tipo de preenchimento, se é obrigatório ou não, a quantidade de caractere e a posição.
 
 Veja em detalhes abaixo:
 
